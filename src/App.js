@@ -8,10 +8,8 @@ import Carousel from './Components/Carousel';
 
 function App() {
 	return (
-		<div>
+		<div className="flex flex-col h-screen bg-white text-slate-800 break-words">
 			<Banner/>
-			<Carousel/>
-			<Footer/>
 		</div>
 	);
 }
